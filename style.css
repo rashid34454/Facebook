@@ -1,0 +1,288 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.header{
+	height: 80px;
+	/*border: 2px solid black;*/
+	background-color: #4867AA;
+}
+
+.header img{
+	height: 95px;
+	margin-left: 160px;
+
+}
+form{
+	
+	float: right;
+	margin-right: 80px;
+	margin-top: 10px;
+}
+
+label{
+	
+	font-size: 12px;
+	font-family: arial ;
+	cursor: pointer;
+	}
+
+.username {
+	float: left;
+	width: 150px;
+	height: 23px;
+	/*border: 2px solid red;*/
+	color: white;
+}
+.username input{
+	/*border: 2px solid black;*/
+	
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+
+.pass{
+	float: left;
+	/*border: 2px solid blue;*/
+	width: 150px;
+	height: 23px;
+	color: white;
+}
+.pass input{
+	/*border: 2px solid green;*/
+	
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+.pass p{
+	margin-top: 3px;
+	font-size: 12px;
+	font-family: Arial ;
+	color: #a3bce0;
+
+}
+.pass a{
+	text-decoration: none;
+}
+.pass a:hover{
+	text-decoration: underline;
+	color:  #a3bce0;
+}
+.btn{
+	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
+	margin-right: 100px;
+
+
+}
+#btn{
+	height: 22px;
+	width:48px;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	background: #3c68b2;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #29487D;
+}
+#btn:hover{
+background-color: #2f528e;
+}
+
+.slider{
+	background: linear-gradient(#FBFBFD, #ccd2e8);
+	width: auto;
+	height: 700px;
+	/*border: 2px solid black;*/
+
+}
+
+.txt p{
+	margin-left:  180px;
+	/*border: 2px solid black;*/
+	font-family: arial;
+	font-size: 21px;
+	font-weight: bold;
+	color:#0E385F;
+	margin-top: 30px;
+	padding-top:10px;
+	float: left;
+	
+
+}
+.txt img{
+	margin-left: 180px;
+	float:left;
+}
+.account{
+	/*border: 2px solid black;*/
+	display: inline-block;
+	margin-left: 60px;
+	height: 600px;
+	padding-left: 10px;
+	margin-top: 11px;
+
+}
+.account h1{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 35px;
+	color: #333333;
+}
+.account h3{
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 19px;
+	color: #1D2129;
+}
+.fn{
+	width: 172px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-size: large;
+	border-radius: 5px;
+	padding: 5px;
+}
+.sn{
+	width: 172px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-size: large;
+	font-family: arial;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 8px;
+}
+.mn{
+	width: 370px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-size: large;
+	border-radius: 5px;
+	padding: 5px;
+	padding: 5px;
+	margin-top: 9px;
+}
+
+.rm{
+	width: 370px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-size: large;
+	border-radius: 5px;
+	padding: 5px;
+	padding: 5px;
+	margin-top: 9px;
+}
+
+.np{
+	width: 370px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-size: large;
+	border-radius: 5px;
+	padding: 5px;
+	padding: 5px;
+	margin-top: 9px;
+}
+
+.bd{
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #1D2129;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.dy{
+	height: 30px;
+	font-size: 13px;
+	padding: 5px;
+}
+.mnt{
+	height: 30px;
+	font-size: 13px;
+	padding: 5px;
+}
+.yr{
+	height: 30px;
+	font-size: 13px;
+	padding: 5px;
+	overflow: hidden;
+}
+.why{
+	float: right;
+	/*display: inline-block;*/
+	font-size: 11px;
+	/*border:2px solid red;*/
+	font-family: Helvetica;
+	width: 150px;
+	color: #365899;
+	margin-top: 3px;
+	margin-right: 26px;
+
+}
+.why:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.gndr{
+	font-family: Helvetica;
+	color: #1D2129;
+	font-size: 18px;
+	font-weight: normal;
+	/*border: 2px solid black;*/
+	cursor: pointer;
+
+
+}
+.pg{
+	width: 320px;
+	font-size: 11px;
+	color: #777A82;
+	font-family: arial;
+	margin-bottom: -4px;
+	margin-top: 8px;
+}
+a{
+	text-decoration: none;
+	color:  #365899;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.caa{
+	height: 40px;
+	width: 180px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	background: linear-gradient( #79bc64, #578843);
+	border-radius: 5px;
+	border: .5px solid #2C5115;
+	padding-bottom:  2px;
+	cursor: pointer;
+}
+.caa:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
+.lst{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #666666;
+	margin-top: 19px;
+}
+hr{
+	border: none;
+    height: 1px;
+    background-color: #c7c3c3;
+}
+.blt{
+	margin-top: 12px;
+}
